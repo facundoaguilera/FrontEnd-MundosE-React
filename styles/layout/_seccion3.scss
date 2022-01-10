@@ -1,0 +1,11 @@
+.s3{
+    display: grid;
+    grid-template-columns:repeat(12,1fr);
+    grid-column-gap: 24px;
+    grid-row-gap:0px;
+    height: 768px;
+    grid-column-start: 1;
+    grid-column-end: 12;
+    margin-right: 101px;
+    margin-left: 101px;
+}

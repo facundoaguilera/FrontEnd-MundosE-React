@@ -1,0 +1,101 @@
+@font-face {
+    font-family: Poppins-semibold ;
+    src: url('../fonts/Poppins/Poppins-SemiBold.ttf');
+}
+@font-face {
+    font-family: Roboto-medium ;
+    src: url('../fonts/Roboto/Roboto-Medium.ttf');
+}
+
+
+.header{
+    background: transparent url('../images/slider-1.png') ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+        }
+ .flex-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height:12.5vh;
+    align-items: center;
+    border-bottom: 1px #E0752F solid;
+ }
+ .logo{
+    //  margin-top: 4.29%;
+    img{
+     margin-left: 7.34vw;
+     width: 9.4vw;
+     height: 31.25%;
+    }
+ }
+.listaFlex{
+    margin-right: 8.05vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; 
+
+    li{
+        margin-left: 12%;
+        // margin-top: 4.94%;
+        a{
+            font-family: "Roboto-medium",sans-serif;
+            letter-spacing: 0px;
+            font-size: 16px;
+            color: #FFFFFF;
+            opacity: 1;
+                    }
+    }
+}
+
+.Titulo{
+    text-align: left;
+    font-family: "Poppins-semibold",sans-serif;
+    font-size:48px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.textoFlex{
+    margin-left: 7.34vw;
+    margin-top: 33.07vh;
+    margin-bottom: 0px;
+    p{
+        margin:0px;
+    }
+}
+.Titulo2{
+    text-align: left;
+    font-family: "Roboto-medium",sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.22px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-top: 3.9vh;
+
+    p{
+        margin:0px;
+    }
+}
+.ReadMore{
+
+margin-left: 7.34vw;
+width: 10.541vw;
+height: 6.25vh;
+// background: var(--unnamed-color-e0752f) 0% 0% no-repeat padding-box;
+background: #E0752F 0% 0% no-repeat padding-box;
+border-radius: 25px;
+opacity: 1;
+p{
+font: normal normal medium 16px/21px Roboto;
+letter-spacing: 0.22px;
+color: #FFFFFF;
+opacity: 1;
+}
+}

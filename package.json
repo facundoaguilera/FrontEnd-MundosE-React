@@ -1,0 +1,20 @@
+{
+  "name": "pin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-compile": "./styles/index.scss ./styles/index.css ",
+    "sass-watch": "sass --watch ./styles/index.scss ./styles/index.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.45.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
