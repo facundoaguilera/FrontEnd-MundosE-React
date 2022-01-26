@@ -1,0 +1,32 @@
+
+// $accordion-icon-color:                    #e0752f;
+// $accordion-icon-active-color:             #e0752f;
+@import "_customVariables";
+@import "../bootstrap-5.0.2/scss/bootstrap.scss";
+
+#carouselExampleControls{
+    width: 50%;
+    height: 50%;
+    background-color: #e0752f;
+    position: relative;
+}
+
+.carousel-control-prev-icon {
+    background-image: url('../images/previous.svg');
+    opacity: 1;
+    width: 20px;
+    height: 20px;
+    right: 16.95%;
+    bottom: 10px !important;
+}
+
+
+.carousel-control-next-icon {
+    background-image: url('../images/next.svg');
+    opacity: 1;
+    width: 20px;
+    height: 20px;
+    right: 10.46%;
+}
+
+
