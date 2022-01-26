@@ -23,7 +23,7 @@ function App() {
       <footer>
         <Section5F/>
       </footer>
-      <script src="styles/bootstrap/dist/js/bootstrap.min.js" ></script>
+      
     </body>
     
   );
