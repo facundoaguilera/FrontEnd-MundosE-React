@@ -1,4 +1,5 @@
 import react from "react";
+import s5image from "../../styles/images/contact-image.png"; 
 function Section5(){
     return(
         <section class="s5">
@@ -22,7 +23,7 @@ function Section5(){
                         </button>
                     </div>
                     <div class="s5img" id="boton2">
-                        <img src="./images/contact-image.png" alt=""/>
+                        <img src={s5image} alt=""/>
                     </div>
             </div>
             

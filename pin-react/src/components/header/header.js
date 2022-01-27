@@ -1,10 +1,11 @@
 import react from "react";
+import logo from "../../styles/images/top-logo.png"
 function Header(){
     return(
         <header class="header">
             <div class= "flex-container">
                 <div class="logo"> 
-                    <img src="./images/top-logo.png" alt=""/>
+                    <img src={logo} alt=""/>
                 </div>
                 <ul class="listaFlex">
                         <li><a href="#">Home</a></li>
