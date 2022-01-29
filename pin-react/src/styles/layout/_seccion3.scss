@@ -26,13 +26,13 @@ justify-content:center;
 
 .s2h1{
     font-family: "Poppins-semibold",sans-serif;
-    font-size: 39px;
-    letter-spacing: 0.55px;
+    font-size: calc(1.25em + 1.42vw);//39px;
+    letter-spacing: 0.034em;//0.55px;
     color: #FFFFFF;
 }
 .s2h2{
     font-family: "Roboto-medium",sans-serif;
     letter-spacing: 0px;
-    font-size: 16px;
+    font-size: calc(0.5em + 0.58vw);//16px;
     color: #FFFFFF;
 }

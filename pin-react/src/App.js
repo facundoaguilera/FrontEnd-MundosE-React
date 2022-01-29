@@ -7,10 +7,10 @@ import Section4F from './components/seccion4';
 import Section5F from './components/seccion5';
 function App() {
   return (
-    <body>
-      <header>
-        <HeaderF/>
-      </header>;
+    <div>
+      <div>
+      <HeaderF/>
+      </div>
       <section>
         <Section2F/>
       </section>
@@ -24,7 +24,7 @@ function App() {
         <Section5F/>
       </footer>
       
-    </body>
+    </div>
     
   );
 }

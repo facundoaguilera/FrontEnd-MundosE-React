@@ -2,7 +2,7 @@ import react from "react";
 
 function Section3(){
     return(
-        <section class="s3">
+        <section class="s3" id="s3">
             <div class="s3Content">
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">

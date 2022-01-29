@@ -1,7 +1,7 @@
 import react from "react";
 function Section2(){
     return(
-        <section class="s4">
+        <section class="s4" id="s4">
                 <div class="s4content">
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item">
@@ -12,11 +12,11 @@ function Section2(){
                           </h2>
                           <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                              <strong>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+                             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
                                   sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, 
                                   sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
                                   Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                            </strong>                              
+                                                      
                                   
                             </div>
                           </div>
