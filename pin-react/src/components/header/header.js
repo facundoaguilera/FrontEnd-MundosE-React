@@ -32,7 +32,7 @@ function Header(){
             </div>
             <button id="readMore" class="ReadMore"><p>Read more</p>
               
-                </button>     
+            </button>     
         </header>
 
     )

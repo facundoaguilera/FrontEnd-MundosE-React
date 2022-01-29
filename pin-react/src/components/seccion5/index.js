@@ -2,7 +2,7 @@ import React,{useState} from "react";
 import Section5 from "./seccion5";
 import Formulario from "./Formulario";
 import s5image from "../../styles/images/contact-image.png"; 
-
+import logo from "../../styles/images/top-logo.png"
 
 
 function Section5F(){
@@ -13,7 +13,7 @@ function Section5F(){
         //     
         //     {/* {<Section5/>} */} original
         // </div>
-        <section class="s5" id="s5">
+        <footer class="s5" id="s5">
             
             <div class="s5Content">
               
@@ -23,14 +23,18 @@ function Section5F(){
                             <p class="S2Subtitle">We are hiring!</p>
                           </h1>
                         </div>
-                    <Formulario/>
+                        <Formulario/>
                     </div>
-                    <div class="s5img" id="boton2">
+                    <div class="s5img">
                         <img src={s5image} alt=""/>
                     </div>
             </div>
+            <div className="piePag">
+                            <div>2020 © All rights reserved.</div>
+                            <div><img src={logo} alt="logo"/></div>
+            </div>
             
-        </section>
+        </footer>
     )
         
     

@@ -14,7 +14,7 @@ function Formulario(params) {
         console.log(data.Name+" "+data.Email+" "+data.Phone+ " "+data.Message)
     }
     return (
-        <form onSubmit={sendData}>
+        <form className ="formulario" onSubmit={sendData}>
             <input type="text" name="Name" id="nombre" placeholder="Name" onChange={handleInputChange}/>
             <input type="text" name="Email" id="Email" placeholder="Email" onChange={handleInputChange}/>
             <input type="number" name="Phone" id="Phone" placeholder="Phone" onChange={handleInputChange}/>
