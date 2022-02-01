@@ -1,4 +1,5 @@
 import react,{useState} from "react";
+import axios from 'axios';
 
 function Formulario(params) {
     const [data, setData] = useState({"Name":"","Email":"","Phone":"","Message":"" })
@@ -12,7 +13,11 @@ function Formulario(params) {
     const sendData = (event) => { 
         event.preventDefault();
         console.log(data.Name+" "+data.Email+" "+data.Phone+ " "+data.Message)
-    }
+        axios.post('localhost:8000/api/comments', data)
+        .then(response => {console.log(response);
+        console.log(response.data);} )
+    };
+    
     return (
         <form className ="formulario" onSubmit={sendData}>
             <input type="text" name="Name" id="nombre" placeholder="Name" onChange={handleInputChange}/>

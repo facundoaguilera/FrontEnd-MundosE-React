@@ -1,7 +1,7 @@
 import react from "react";
 import slider1 from "../../styles/images/slider-1.png"
-import slider2 from "../../styles/images/section3-image.png"
-import slider3 from "../../styles/images/section4-image.png"
+import slider2 from "../../styles/images/Coron.png"
+import slider3 from "../../styles/images/estrellas.jpeg"
 import Header from "./header";
 
 function Carrusel(){
