@@ -28,9 +28,23 @@
     height: 20px;
     right: 10.46%;
 }
+#controlPrev{
+    bottom: -60%;
+    left: 78%;
+    opacity: 10;
+
+}
+#controlNext{
+    bottom: -60%;
+    opacity: 10;
+
+}
 
   
 
 #slider{
     height: 100vh;
+}
+#carousel-inner-s3{
+    padding: 10%;
 }

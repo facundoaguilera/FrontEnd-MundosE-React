@@ -7,21 +7,21 @@ import Header from "./header";
 function Carrusel(){
     return(
     
-      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
+        <div className="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img id="slider" src={slider1} class="d-block w-100" alt="slider1"/>
+      <div className="carousel-inner">
+        <div className="carousel-item active">
+          <img id="slider" src={slider1} className="d-block w-100" alt="slider1"/>
         </div>
-        <div class="carousel-item">
-          <img id="slider" src={slider2} class="d-block w-100" alt="slider2"/>
+        <div className="carousel-item">
+          <img id="slider" src={slider2} className="d-block w-100" alt="slider2"/>
         </div>
-        <div class="carousel-item">
-          <img id="slider" src={slider3} class="d-block w-100" alt="slider3"/>
+        <div className="carousel-item">
+          <img id="slider" src={slider3} className="d-block w-100" alt="slider3"/>
         </div>
       </div>
       

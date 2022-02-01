@@ -1,11 +1,10 @@
 import React,{useState} from "react";
-import Section5 from "./seccion5";
 import Formulario from "./Formulario";
 import s5image from "../../styles/images/contact-image.png"; 
 import logo from "../../styles/images/top-logo.png"
 
 
-function Section5F(){
+function Section5(){
     
    
     return (
@@ -13,19 +12,19 @@ function Section5F(){
         //     
         //     {/* {<Section5/>} */} original
         // </div>
-        <footer class="s5" id="s5">
+        <footer className="s5" id="s5">
             
-            <div class="s5Content">
+            <div className="s5Content">
               
-                    <div class="s5Form">
-                        <div class="s5title">
-                          <h1 class="S2Title">  <p>Get in touch</p>
-                            <p class="S2Subtitle">We are hiring!</p>
+                    <div className="s5Form">
+                        <div className="s5title">
+                          <h1 className="S2Title">  <p>Get in touch</p>
+                            <p className="S2Subtitle">We are hiring!</p>
                           </h1>
                         </div>
                         <Formulario/>
                     </div>
-                    <div class="s5img">
+                    <div className="s5img">
                         <img src={s5image} alt=""/>
                     </div>
             </div>
@@ -39,4 +38,4 @@ function Section5F(){
         
     
 }
-export default Section5F;
+export default Section5;

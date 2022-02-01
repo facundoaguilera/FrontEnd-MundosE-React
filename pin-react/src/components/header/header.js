@@ -1,16 +1,17 @@
 import react from "react";
 import logo from "../../styles/images/top-logo.png"
 import Carrusel from "./Carrusel";
+import Button from "../Button";
 function Header(){
     return(
-        <header class="header" id="header">
+        <header className="header" id="header">
             <Carrusel/>
-            <div class= "flex-container">
-                <div class="logo"> 
+            <div className= "flex-container">
+                <div className="logo"> 
                     <img src={logo} alt="logo"/>
                 </div>
-                <nav class="menu">
-                    <ul class="listaFlex">
+                <nav className="menu">
+                    <ul className="listaFlex">
                             <li><a href="#header">Home</a></li>
                             <li><a href="#s2">About</a></li>
                             <li><a href="#s3">Products</a></li>
@@ -19,20 +20,25 @@ function Header(){
                     </ul>
                 </nav>
             </div>
-            <div class="textoFlex">
-                <h1 class="Titulo">
+            <div className="textoFlex">
+                <h1 className="Titulo">
                  Sed ut perspiciatis<br/>
                  unde omnis iste natus
                 </h1> 
-                <h2 class="Titulo2">
+                <h2 className="Titulo2">
                     <p>Sed ut perspiciatis unde omnis iste natus error </p>
                     <p>sit voluptatem accusantium doloremque.</p>
                 </h2>
                 
             </div>
-            <button id="readMore" class="ReadMore"><p>Read more</p>
-              
-            </button>     
+            {/* <button onclick="location.href='#s2'" type="button" className="ReadMore" id="readMore">
+         Read More</button> */}
+            <div className="ReadMore" id="readMore"> <a href="#s2" >Read More </a>
+            {/* <Button  id="readMore" >Read more</Button></a> */}
+            {/* <button id="readMore" className="ReadMore"><p>Read more</p>
+            
+            </button>      */}
+            </div>
         </header>
 
     )
