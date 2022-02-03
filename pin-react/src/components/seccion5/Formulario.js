@@ -3,7 +3,7 @@ import axios from 'axios';
 import Button from "../Button";
 
 function Formulario(params) {
-    const [data, setData] = useState({"Name":"","Email":"","Phone":"","Message":"" })
+    const [data, setData] = useState({"name":"","email":"","phone":"","message":"" })
     const handleInputChange = (event) => {
         
         setData({
@@ -13,18 +13,19 @@ function Formulario(params) {
     }
     const sendData = (event) => { 
         event.preventDefault();
-        console.log(data.Name+" "+data.Email+" "+data.Phone+ " "+data.Message)
-        axios.post('https://pin.cardansel.com/laravel/public/api/comments', data)
-        .then(response => {console.log(response);
+        console.log(data.name+" "+data.email+" "+data.phone+ " "+data.message)
+        const Url="http://pin.cardansel.com/laravel/public/api/comments";
+        const Url2="http://127.0.0.1:8000/api/comment"
+        axios.post(Url2, data).then(response => {console.log(response);
         console.log(response.data);} )
     };
     
     return (
         <form className ="formulario" onSubmit={sendData}>
-            <input type="text" name="Name" id="nombre" placeholder="Name" onChange={handleInputChange}/>
-            <input type="text" name="Email" id="Email" placeholder="Email" onChange={handleInputChange}/>
-            <input type="number" name="Phone" id="Phone" placeholder="Phone" onChange={handleInputChange}/>
-            <input type="text" name="Message" id="Message" placeholder="Message" onChange={handleInputChange}/>
+            <input type="text" name="name" id="nombre" placeholder="Name" onChange={handleInputChange}/>
+            <input type="text" name="email" id="Email" placeholder="Email" onChange={handleInputChange}/>
+            <input type="number" name="phone" id="Phone" placeholder="Phone" onChange={handleInputChange}/>
+            <input type="text" name="message" id="Message" placeholder="Message" onChange={handleInputChange}/>
             <div>
             <Button className="ReadMore" type="submit">
             Send
